@@ -1,0 +1,25 @@
+chords::major_triad
+    intervals::major_third
+        intervals::third
+            intervals::interval
+                keys::get_notes
+                    keys::get_key_signature_accidentals
+                    keys::get_key_signature
+        intervals::augment_or_diminish_until_the_interval_is_right
+            notes::diminish
+            notes::augment
+    intervals::perfect_fifth
+        intervals::fifth
+
+chords::minor_triad
+    intervals::minor_third
+    intervals::perfect_fifth
+
+chords::diminished_triad
+    intervals::minor_third
+    intervals::minor_fifth
+
+chords::augmented_triad
+    intervals::major_third
+    intervals::major_fifth
+    notes::augment
